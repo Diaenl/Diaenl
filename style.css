@@ -1,0 +1,26 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	background-color: darkgray;
+	align-content: center;
+}
+.container {
+	align-content: center;
+}
+table {
+	margin: opx;
+	text-align: center;
+	border-spacing: 0px;
+}
+td {
+	text-align: center;
+}
+table, tr, td {
+	border: solid black;
+	border-collapse: collapse;
+}
+td {
+	padding: 50px;
+	flex-wrap: wrap;
+	
+}
