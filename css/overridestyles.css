@@ -1,0 +1,181 @@
+ol {
+  display: inline-flex;
+  width: auto;
+}
+h1 {
+  font-family: "Mesmerize Lt";
+}
+h2 {
+  width: 100%;
+  padding-top: 2.5%;
+  padding-left: 3%;
+  padding-bottom: 1%;
+}
+hr {
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+.push-menu-left {
+  margin-left: 2em;
+  margin-top: 0.35em;
+  padding-top: .2em;
+  padding-left: .65em;
+  padding-right: .5em;
+  background-color: rgba(0, 0, 25, 0.45);
+  border-radius: 0.5em;
+}
+.blankspace {
+  font-size: 1.3em;
+  font-family: "Belda Norm Regular", "Mesmerize Lt";
+  margin-top: 0.25em;
+  margin-left: 2em;
+}
+.availability{align-items: center;align-content: center;}
+.breathingroom {
+  margin-bottom: 0.5%;
+}
+.section-welcome {
+  justify-content: space-between;
+  margin-top: 50px;
+}
+.live-baits-color {
+  color: rgba(198, 135, 0, 1.00);
+}
+.live-baits {
+  background-image: url(../images/will-walker-KeDUk_ltYvw-unsplash.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.live-fish-color {
+  color: rgba(255, 255, 223, 1.00);
+}
+.live-fish {
+  background-image: url("../images/hunter-brumels-i1aaOj95ZFk-unsplash.jpg");
+  background-position: center;
+  background-size: cover;
+}
+.goldfish-color {
+  color: rgba(183, 189, 255, 1.00);
+}
+.gold-fish {
+  background-image: url("../images/worachat-sodsri-nCz_ZgnbtaE-unsplash.jpg");
+  background-position: center;
+  background-size: cover;
+}
+.catfish-color {
+  color: rgba(29, 34, 27, 1.00);
+}
+.catfish {
+  background-image: url("../images/jakob-owens-F--msjLEI4U-unsplash.jpg");
+  background-position: center;
+  background-size: cover;
+}
+.cold-bait-color {
+  color: rgba(206, 216, 236, 1.00);
+}
+.cold-bait {
+  justify-content: space-between;
+  background-image: url("../images/hunter-brumels-i1aaOj95ZFk-unsplash.jpg");
+  background-position: center;
+  background-size: cover;
+}
+.container-one {
+  float: left;
+  margin-left: 4em;
+  width: 45%;
+  height: 150px;
+}
+.container-two {
+  float: left;
+  margin-left: 4em;
+  width: 45%;
+  height: 150px;
+}
+.facebook-buttom {
+  margin-left: 14em;
+  margin-right: 14em;
+}
+.services {
+  height: 200px;
+  background-image: url("../images/brady-rogers-ZGRB8TMT6zQ-unsplash.jpg");
+  background-position: center;
+  background-size: cover;
+}
+.contact {
+  height: 200px;
+  background-image: url();
+  background-position: center;
+  background-size: cover;
+}
+.bottom-footer {
+  padding: 15em;
+}
+
+
+@media (min-width: 575px) and (max-width: 767px) {
+h5 {text-align: left;}
+p {text-align:left;}
+h6 {text-align: left;}
+  .card {
+    margin-left: 2.75em;
+    margin-bottom: 2.75em;
+  }
+  .btn-large-fill {
+    width: 427px;
+  }
+  .column-bottom {
+    width: 50%;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+h5{text-align: center;}
+p{text-align:center;}
+h6{text-align: center;padding-bottom: 0.25em;}
+  .card {
+    margin-left: 1.5em;
+    margin-bottom: 1.5em;
+    align-items: center;
+  }
+  .btn-large-fill {
+    width: 250px;
+  }
+  nav-link {
+    width: auto;
+  }
+  button {
+    float: left;
+    margin-left: 5%;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+h5{text-align: center;}
+p{text-align:center;}
+h6{text-align: center;padding-bottom: 0.25em;}
+  .blankspace {
+    width: 500px;
+  }
+  .card {
+    align-items: center;
+    width: 70%;
+    margin-left: 2em;
+    margin-bottom: 2em;
+  }
+  .btn-large-fill {
+    width: 200px;
+  }
+}
+@media (min-width: 1200px) and (max-width: 1500px) {
+h5{text-align: center;}
+p{text-align:center;}
+h6{text-align: center;padding-bottom: 0.25em;}
+  .blankspace {
+    width: 800px;
+  }
+  .card {
+    align-items: center;
+    margin: 2em;
+  }
+  .btn-large-fill {
+    width: 200px;
+  }
+}
